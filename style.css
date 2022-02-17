@@ -1,0 +1,71 @@
+/* setup */
+
+body {
+  background-color: #383838;
+  color: #b5b5b5;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+/* giao diện điện thoại */
+.header {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.tac_gia {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+a {
+  margin-right: 10px;
+  font-size: 35px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #96a6ff;
+}
+
+a:hover {
+  font-size: 40px;
+  text-decoration: underline;
+  transition-duration: 0.4s;
+  color: #ff6054;
+}
+
+/* giao diện máy tính */
+
+@media only screen and (min-width: 768px) {
+   body {
+    font-size: 30px;
+  }
+  .header {
+    margin-top: 10px;
+    margin-left: 30px;
+
+  }
+
+    .gioi_thieu {
+      font-size: 20px;
+    }
+
+  .tac_gia {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  a {
+    margin-right: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color: #96a6ff;
+  }
+
+  a:hover {
+    font-size: 30px;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+    color: #ff6054;
+  }
+}
